@@ -46,7 +46,7 @@ namespace Listing_07
       Console.ReadLine();
 
       // cancel the task
-      Console.WriteLine("Cancelling task");
+      Console.WriteLine("Canceling task");
       tokenSource.Cancel();
 
       // wait for input before exiting
